@@ -579,6 +579,9 @@ workflows[143.911] = ['',['RunUPC2024','RECODR3_2025_OXY','HARVESTDPROMPTR3']]
 workflows[143.912] = ['',['RunUPC2024','RECODR3_2025_UPC_OXY','HARVESTDPROMPTR3']]
 workflows[143.921] = ['',['RunUPC2024','RECODR3_2025_OXY_SKIMIONPHYSICS0','HARVESTDPROMPTR3']]
 
+### run3-2025 skim (2025 HI MC temp)
+workflows[143.203] = ['',['HydjetQ_MinBias_5362GeV_2025','DIGIHI2024','RAWPRIMESIMHI18','SKIMHIPHYSICSRAWPRIMERUN3_2025','HARVESTHI2025S4']]
+
 ## special HLT scouting workflow (with hardcoded private input file from ScoutingPFMonitor skimmed to remove all events without scouting)
 workflows[145.415] = ['',['HLTDR3_ScoutingPFMonitor_2024','RECONANORUN3_ScoutingPFMonitor_reHLT_2024','HARVESTRUN3_ScoutingPFMonitor_2024']]
 
@@ -661,7 +664,6 @@ workflows[135.9] = ['ZMMFS_13',['ZMMFS_13','HARVESTUP15FS','MINIAODMCUP15FS','NA
 workflows[135.11] = ['SMS-T1tttt_mGl-1500_mLSP-100FS_13', ['SMS-T1tttt_mGl-1500_mLSP-100FS_13','HARVESTUP15FS','MINIAODMCUP15FS','NANOUP15FS']]
 workflows[135.12] = ['QCD_Pt_80_120FS_13', ['QCD_Pt_80_120FS_13','HARVESTUP15FS','MINIAODMCUP15FS','NANOUP15FS']]
 workflows[135.13] = ['TTbarFS_13', ['TTbarFS_13_trackingOnlyValidation','HARVESTUP15FS_trackingOnly']]
-workflows[135.14] = ['TTbarFS_13', ['TTbarFS_13','HARVESTUP15FS','MINIAODMCUP15FS','NANOUP15FSrefine']]
 
 ### MinBias fastsim_13 TeV for mixing ###
 workflows[135.8] = ['MinBiasFS_13',['MinBiasFS_13_ForMixing']]
